@@ -1,0 +1,30 @@
+url: https://armelsoubeiga.wax-mnist.com/
+home:
+  title: wax-mnist
+  description: Wax-MNIST is a dataset of images of African fabric created for machine learning purposes.
+
+template:
+  path: pkgdown/templates
+  params:
+    bootswatch: readable
+    ganalytics: UA-128994988-1
+
+navbar:
+  title: wax-mnist
+  left:
+    - text: Home
+      href: index.md
+    - text: Licence
+      href: LICENSE.md
+    - text: News
+      href: news.md
+
+  right:
+    - icon: fa-flag-usa fa-lg
+      href: index-fr.md
+    - icon: fa-github fa-lg
+      href: https://github.com/armelsoubeiga/Wax-MNIST
+
+authors:
+  Armel Soubeiga:
+    href: https://armelsoubeiga.github.io/
